@@ -1,0 +1,9 @@
+groups:
+   member:
+      amount: 10.0
+      interval: 60
+   vip:
+      amount: 50.0
+      interval: 60   
+messages:
+   money-received: "&aYou received {0} for staying online!"

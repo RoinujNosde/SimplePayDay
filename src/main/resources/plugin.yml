@@ -1,0 +1,5 @@
+name: ${project.name}
+main: me.roinujnosde.simplepayday.SimplePayDay
+version: ${project.version}
+author: RoinujNosde
+depend: [Vault]
