@@ -6,4 +6,4 @@ groups:
       amount: 50.0
       interval: 60   
 messages:
-   money-received: "&aYou received {0} for staying online!"
+   money-received: "&aYou received {0} for staying online for {1} minutes!"

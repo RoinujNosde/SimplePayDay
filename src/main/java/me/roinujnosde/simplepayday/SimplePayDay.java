@@ -4,6 +4,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import me.roinujnosde.simplepayday.listeners.JoinQuitListener;
 import me.roinujnosde.simplepayday.tasks.GiveMoneyTask;
 import net.milkbowl.vault.economy.Economy;
 
@@ -19,6 +20,7 @@ public class SimplePayDay extends JavaPlugin {
 		}
 		
 		saveDefaultConfig();
+		getServer().getPluginManager().registerEvents(new JoinQuitListener(), this);
 		
 		Groups groups = new Groups(this);
 		groups.loadGroups();
